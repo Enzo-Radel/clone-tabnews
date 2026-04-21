@@ -1,24 +1,29 @@
 {
-  "name": "clone-tabnews",
-  "version": "1.0.0",
-  "description": "Clone do projeto tabnews para prática do curso.dev",
-  "homepage": "https://github.com/Enzo-Radel/clone-tabnews#readme",
-  "bugs": {
-    "url": "https://github.com/Enzo-Radel/clone-tabnews/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Enzo-Radel/clone-tabnews.git"
-  },
-  "license": "MIT",
-  "author": "",
-  "main": "index.js",
-  "scripts": {
-    "dev": "next dev"
-  },
-  "dependencies": {
-    "next": "^13.1.6",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
-  }
+	"name": "clone-tabnews",
+	"version": "1.0.0",
+	"description": "Clone do projeto tabnews para prática do curso.dev",
+	"homepage": "https://github.com/Enzo-Radel/clone-tabnews#readme",
+	"bugs": {
+		"url": "https://github.com/Enzo-Radel/clone-tabnews/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Enzo-Radel/clone-tabnews.git"
+	},
+	"license": "MIT",
+	"author": "",
+	"main": "index.js",
+	"scripts": {
+		"dev": "next dev",
+		"lint:check": "prettier --check .",
+		"lint:fix": "prettier --write ."
+	},
+	"dependencies": {
+		"next": "^13.1.6",
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0"
+	},
+	"devDependencies": {
+		"prettier": "^3.8.3"
+	}
 }
